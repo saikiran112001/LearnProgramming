@@ -1,8 +1,8 @@
 public class FamilyNames{
 
      public static void main(String []args){
-        System.out.println("MyName: M. Prasanth Reddy,");
-        System.out.println("Father: M. RosiReddy,");
-        System.out.println("Mother: M. Annapurna");
+        System.out.println("MyName: saikiran reddy,");
+        System.out.println("Father: bpnr,");
+        System.out.println("Mother: mom");
      }
 }
