@@ -11,9 +11,7 @@ public class DefaultValue {
     static double defaultDouble; 
 
     public static void main(String[] args) {
-       // int defaultInt;//
-        //char defaultChar;
-       // byte defaultByte;
+    
 
         System.out.println("int="+defaultInt);
         System.out.println("char="+defaultChar);
