@@ -5,8 +5,7 @@ public class TrianglePerimeter {
         int a=10;
         int b=20;
         int c=30;
-
-       int  perimeter=a+b+c;
+        int  perimeter=a+b+c;
    
     System.out.println("perimeter_of_triangle="+perimeter);
 
