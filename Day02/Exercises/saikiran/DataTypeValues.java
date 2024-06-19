@@ -8,7 +8,7 @@ public class DataTypeValues {
     static float f=3.14f;
     static double d=2.71828d;
     static char ch='A';
-    static boolean bo=true;
+    static boolean boo=true;
 
     public static void main(String args[]){
         
@@ -19,6 +19,6 @@ public class DataTypeValues {
         System.out.println("f="+f);
         System.out.println("d="+d);
         System.out.println("ch="+ch);
-        System.out.println("bo="+bo);
+        System.out.println("boo="+boo);
     }
 }
