@@ -7,8 +7,10 @@ public class UnaryOperators {
         System.out.println(i);
         ++i;
         System.out.println(i);
-        System.out.println(++i);
-        System.out.println(i++);
+        System.out.println(++i);//pre increment
+        System.out.println(i++);//post increment
         System.out.println(i);
+
     }
 }
+
