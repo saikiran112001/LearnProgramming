@@ -10,6 +10,6 @@ public class MaxOfThreeNumbers {
 
         max = ((n1 > n2) ? (n1 > n3) ? n1 : n3 : (n2 > n3) ? n2 : n3);
 
-        System.out.println("max number is="+max);
+        System.out.println("maximum number is="+max);
     }
 }
