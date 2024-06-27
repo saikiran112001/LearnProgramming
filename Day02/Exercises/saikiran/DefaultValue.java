@@ -21,6 +21,7 @@ public class DefaultValue {
         System.out.println("long="+defaultLong);
         System.out.println("float="+defaultFloat);
         System.out.println("double="+defaultDouble);
+        -+
         
         
 
