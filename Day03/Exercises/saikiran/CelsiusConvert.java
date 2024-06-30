@@ -3,7 +3,7 @@ package Day03.Exercises.saikiran;
 public class CelsiusConvert {
     public static void main(String[] args) {
        
-        double fahrenheit = 70.0;
+        double fahrenheit = 70.0;                      ;
         
         double celsius = (fahrenheit - 32) * 5 / 9;
         

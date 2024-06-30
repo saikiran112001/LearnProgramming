@@ -12,4 +12,10 @@ public class MarksCalc {
         System.out.println("total marks="+total_marks);
         System.out.println("percentage="+percentage+"%");
     }
-}
+}+-
+
+
+
+
+-
+
