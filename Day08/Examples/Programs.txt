@@ -1,7 +1,7 @@
 Flow Control References:
-• Decision-making statements : if, if-else, if-else-if, nested-if, switch
-• Looping statements : for, while, do-while
-• Branching statements : break, continue, return
+ï¿½ Decision-making statementsï¿½: if, if-else, if-else-if, nested-if, switch
+ï¿½ Looping statementsï¿½: for, while, do-while
+ï¿½ Branching statementsï¿½: break, continue, return
 
 https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/
 https://www.geeksforgeeks.org/loops-in-java
@@ -26,7 +26,7 @@ if-else:
 
 2. PrintPositiveOrNegative : Write a Java program to get a number from the user and print whether it is positive or negative.
 	Ex: I/P: 35
-	O/P : Number is positive
+	O/Pï¿½: Number is positive
 
 if-else-if:
 
@@ -80,7 +80,8 @@ Switch:
             break; 
         default: 
             System.out.println("i is greater than 2."); 
-        } 
+        }//'
+         
 
 2.      int i = 1; 
         switch (i) 
