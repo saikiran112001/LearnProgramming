@@ -1,23 +1,21 @@
 import java.util.Scanner;
+
 public class SumOfDigits {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-
-        System.out.println("enter an integer");
-        int num=sc.nextInt();
-
-        int originalnumber=num;
-        int reversednum=0;
-
-        while(num!=0)
-        {
-            int digit=num%10;
-            reversednum= reversednum*10+digit;
-            num/=10;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int number = scanner.nextInt();
+        
+        int sum = 0;
+        int originalNumber = number; 
+        
+        while (number != 0) {
+            int digit = number % 10;    
+            sum += digit;               
+            number = number / 10;       
         }
-
-        System.out.println("reversed num of "+originalnumber+"is"+reversednum);
-
-        sc.close();
-    }    
+        
+        System.out.println("Sum of digits of " + originalNumber + " is: " + sum);
+        scanner.close();
+    }
 }
