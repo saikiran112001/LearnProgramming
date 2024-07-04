@@ -2,7 +2,7 @@ Practice all programs in the examples section before solving exercise programs.
 
 Programs:
 
-1. ReverseNumbers : Write a program to print numbers from 10 to 1.
+1. ReverseNumbers: Write a program to print numbers from 10 to 1.
 
 2. SumOfNaturalNumbers : Write a program to calculate the sum of first 10 natural number.
 
