@@ -28,7 +28,8 @@ Programs:
 9. HCF : Write a program to calculate HCF of Two given number.
 
 10.SumOfEvenAndOddNumbers : Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
-							Stop reading input from user based on user choice (y/n) and use do-while.
+						
+                        	Stop reading input from user based on user choice (y/n) and use do-while.
 
 11. CountOfPositiveAndNegative : Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
 
@@ -40,7 +41,7 @@ Programs:
 
 16. FibonacciSeries : Write a program to print Fibonacci series of n terms where n is input by user :
 					  0 1 1 2 3 5 8 13 24 ..... 
-
+                      
 17. Pattern# : Write a program to print following :
 
     i)
