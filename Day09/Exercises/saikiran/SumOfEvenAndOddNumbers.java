@@ -7,7 +7,7 @@ public class SumOfEvenAndOddNumbers {
         int sumOdd = 0;
         char choice = 'y';
 
-        while (Character.toLowerCase(choice) == 'y') {
+        while (choice == 'y' || choice == 'Y') {
             System.out.print("Enter an integer: ");
             int num = scanner.nextInt();
 
