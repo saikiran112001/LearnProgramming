@@ -35,9 +35,9 @@ Programs:
 
 12. FindLargeAndSmallNumber : Write a program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered.
 
-13. AmstrongNumbers : Write a program to print out all Armstrong numbers between 1 and 500. 
+13. AmstrongNumbers :Write a program to print out all Armstrong numbers between 1 and 500. 
 					  If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number.
-					  For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
+					  For example, 153  = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
 
 16. FibonacciSeries : Write a program to print Fibonacci series of n terms where n is input by user :
 					  0 1 1 2 3 5 8 13 24 ..... 
