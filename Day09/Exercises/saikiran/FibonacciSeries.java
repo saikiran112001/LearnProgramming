@@ -6,17 +6,17 @@ public class FibonacciSeries {
         System.out.println("enter the fibo number");
         int num=sc.nextInt();
 
-        int a=0,b=1;
-        System.out.println(a+" "+b+" ");
+        int a=0,b=1,n=10;
+        System.out.print(a+" "+b+" ");
         
-        for(int i=2;i<num;i++)
+        for(int i=3;i<=num;i++)
         {
-            int c=a+b;
-            System.out.println(c +" ");
+            int sum=a+b;
+            System.out.print(sum +" ");
             a=b;
-            b=num;
+            b=sum;
         }
-        System.out.println();
+        System.out.println(num);
         sc.close();
         
 
