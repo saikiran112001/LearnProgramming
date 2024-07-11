@@ -4,10 +4,29 @@ public class HCF {
         Scanner sc=new Scanner(System.in);
 
         System.out.println("enter first number");
-        int num_1=sc.nextInt();
+        int a=sc.nextInt();
 
         System.out.println("enter second number");
-        int num_2=sc.nextInt();
+        int b=sc.nextInt();
 
-    }
+        
+        while(true)
+        {
+           int remainder=a%b;
+        
+            if(remainder==0)
+            {
+                System.out.println(b);
+                break;
+                
+            } 
+            a=b;
+            b=remainder;
+
+        }
+        sc.close();
+        
+
+}
+
 }
