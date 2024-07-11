@@ -3,25 +3,30 @@ public class FindLargeSmallNumber {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("enter a number");
-        int number=sc.nextInt();
+        System.out.println("enter a  n series of numbers");
+        int n=sc.nextInt();
+        int i;
     
 
-        int largest=0;
-        int smallest=0;
+        int largest=Integer.MIN_VALUE;
+        int smallest=Integer.MIN_VALUE;
 
-        if(number>largest)
+        for(i=1;i<=n;i++)
         {
-            largest=number;
+        if(n>largest){
+            largest=n;
         }
-       else if(number<smallest)
-        {
-            smallest=number;
+        if(n<smallest){
+            smallest=n;
         }
+        }
+    
 
         System.out.println("largest number="+largest);
         System.out.println("smallest number="+smallest);
 
         sc.close();
+
+        
 }
 }
