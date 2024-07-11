@@ -9,24 +9,20 @@ public class HCF {
         System.out.println("enter second number");
         int b=sc.nextInt();
 
-        
-        while(true)
+        int hcf=0,i=1;
+
+        for(i=1;i<=b;i++)
         {
-           int remainder=a%b;
-        
-            if(remainder==0)
-            {
-                System.out.println(b);
-                break;
-                
-            } 
-            a=b;
-            b=remainder;
-
+        if(a%i==0 && b%i==0)
+        {
+        hcf=i;
         }
-        sc.close();
+        }
+
+        System.out.println("hcf="+hcf);
+    }
+}
+
+
         
-
-}
-
-}
+      
