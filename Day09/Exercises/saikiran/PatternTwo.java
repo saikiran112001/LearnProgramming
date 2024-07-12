@@ -16,8 +16,10 @@ public class PatternTwo {
         }
         System.out.println();
         }
+      
        sc.close();
     
     }
-    
 }
+    
+
