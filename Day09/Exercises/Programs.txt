@@ -44,6 +44,7 @@ Programs:
                       
 17. Pattern# : Write a program to print following :
 
+
     i)
     
     **********
