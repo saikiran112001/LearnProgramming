@@ -14,6 +14,7 @@ Arrays 1-D:
 
 3. DuplicateValues: Take N integer inputs from user and store them in an array. Print the duplicate values in array.
 
+
 4. CommonElements: Read 2 integer arrays from user and find and print the common elements.
 
 5. SplitArray: Take an array of 10 elements. Split it into middle and store the elements in two dfferent arrays.
