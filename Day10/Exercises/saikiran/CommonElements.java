@@ -12,14 +12,17 @@ public class CommonElements {
         int n2=sc.nextInt();
         
         int i,j;
+        boolean match_found=false;
 
         int a[] = new int[n1];
         int b[] = new int[n2];
 
+        System.out.println("enter a array values");
         for(i=0;i<a.length;i++)
         {
             a[i]=sc.nextInt();
         }
+        System.out.println("enter b array values");
         for(j=0;j<b.length;j++)
         {
             b[j]=sc.nextInt();
@@ -31,14 +34,14 @@ public class CommonElements {
         {
         if(a[i]==b[j])
         {
+            match_found=true;
             System.out.println("commen element found="+a[i]);
-            
-        }
-         
         }
         }
-            System.out.print("commen elements not found");
-            sc.close();
+        }
+            if(match_found==false){
+            System.out.println("commen elements not found");
+            }
 }
 }
 
