@@ -17,16 +17,18 @@ public class matrixHighestOne {
             }
         }
 
-       int highest=Integer.MIN_VALUE;
+       //int highest=Integer.MIN_VALUE;
 
        for(i=0;i<n;i++){
+        int highest=Integer.MIN_VALUE;
            for(j=0;j<m;j++){
-        if(highest<a[i][j]){
-            highest=a[i][j];
-        }
-       }
-       System.out.print("highest value is:"+highest+ " ");
-       System.out.println();
+            //int highest=Integer.MIN_VALUE;
+             if(highest<a[i][j]){
+                highest=a[i][j];
+                }
+             }
+            System.out.print("highest value is:"+highest+ " ");
+            System.out.println();
        }
        sc.close();
         }
