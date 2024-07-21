@@ -1,5 +1,5 @@
 package Day11.Examples.saikiran;
 
-public class Symmetrx {
+public class Symmetrix {
     
 }

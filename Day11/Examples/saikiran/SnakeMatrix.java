@@ -9,9 +9,6 @@ public class SnakeMatrix {
         int n=sc.nextInt();
         int m=sc.nextInt();
 
-       // System.out.println("enter n1 and m1 values");
-        //int n1=sc.nextInt();
-        //int m1=sc.nextInt();
 
         int a[][]=new int[n][m];
         int b[][]=new int[n][m];
