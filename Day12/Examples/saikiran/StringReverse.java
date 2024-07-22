@@ -11,7 +11,6 @@ public class StringReverse {
         int i;
         for(i=s.length()-1;i>=0;i--){
            rev+=s.charAt(i);
-           //System.out.print(rev);
         }  
         System.out.print("reversed string="+rev);
         sc.close();
