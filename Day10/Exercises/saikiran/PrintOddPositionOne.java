@@ -24,3 +24,5 @@ public class PrintOddPositionOne {
             sc.close();
         }    
 }
+
+

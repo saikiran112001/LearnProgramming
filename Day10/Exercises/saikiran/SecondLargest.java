@@ -32,7 +32,7 @@ public class SecondLargest {
             continue;}
          if(second_highest<a[i]){
             second_highest=a[i];
-         }
+         }[]
         
        }
        System.out.print("2nd largest value is:"+second_highest);
